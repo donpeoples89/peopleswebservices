@@ -18,7 +18,7 @@ var num = 0;
 $(".header-image").on("click", function(){
  	if (num === 0) {
  	$("nav").fadeIn(300);
- 	$("main").css("margin-top", "110px");
+ 	$("main").css("margin-top", "130px");
  	num +=1;	 
 	} else {
 	num = 0;

@@ -108,9 +108,28 @@ section p {
     margin: 0 auto;
 }
 
+/* Following Styles Are For
+The About Me Section */
 
+.about-me-flex-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.about-me-flex-item {
+    width: 45%;
+}
 
+li.about-me-li {
+    text-align: left;
+}
+
+img.portfolio-image { 
+max-height: 80%;
+display: block;
+margin: 10px auto 0 auto;
+border-radius: 100%;
+}
 
 img {
     max-width: 100%;
