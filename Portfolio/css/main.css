@@ -31,7 +31,7 @@ header {
         transform: rotateY(0deg);
     }
     100% {
-        transform: rotateY(360deg);    
+        transform: rotateY(360deg);
     }
 }
 
@@ -44,7 +44,7 @@ header {
     background-position: center center;
     */
     background-color: #666FFF;
-} 
+}
 
 span {
     position: absolute;
@@ -72,7 +72,7 @@ nav {
     z-index: 1;
     display: none;
     margin-bottom: 75px;
-    
+
 }
 
 nav ul li a {
@@ -102,6 +102,14 @@ section p {
     margin-top: 0;
 }
 
+section {
+  margin: 25px;
+}
+
+section li {
+  text-align: left;
+}
+
 .slide-show {
     width: 80%;
     display: block;
@@ -124,7 +132,7 @@ li.about-me-li {
     text-align: left;
 }
 
-img.portfolio-image { 
+img.portfolio-image {
 max-height: 80%;
 display: block;
 margin: 10px auto 0 auto;
@@ -141,4 +149,4 @@ body p {
     font-size: 15px;
     line-height: 1.8em;
     text-align: justify;
-}   
+}
